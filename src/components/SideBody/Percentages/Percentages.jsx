@@ -1,7 +1,7 @@
 
 const Percentages = () => {
     return (
-        <div className="flex h-[50px] gap-5">
+        <div className="flex h-[70px] gap-5">
             <div className="w-1/4 bg-white">
                 <h6 className="p-2">71%</h6>
             </div>
