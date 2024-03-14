@@ -1,4 +1,6 @@
 import Bandwidth from "./Bandwidth/Bandwidth";
+import Graph from "./Graph/Graph";
+import GraphBlocks from "./GraphBlocks/GraphBlocks";
 import Header from "./Header/Header";
 import InfoBlocks from "./InfoBlocks/InfoBlocks";
 
@@ -12,6 +14,14 @@ const SideBody = () => {
                 </div>
                 <div className="w-[50%]">
                     <InfoBlocks />
+                </div>
+            </div>
+            <div className="flex gap-5 p-5">
+                <div className="w-[50%]">
+                    <GraphBlocks />
+                </div>
+                <div className="w-[50%]">
+                    <Graph />
                 </div>
             </div>
         </div>
