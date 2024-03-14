@@ -1,7 +1,7 @@
 
 const Sidebar = () => {
     return (
-        <div>
+        <div className="min-h-screen bg-slate-700">
             
         </div>
     );
