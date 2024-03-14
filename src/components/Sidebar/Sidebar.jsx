@@ -1,15 +1,15 @@
 
 const Sidebar = () => {
     return (
-        <ul className="h-full min-h-screen p-4 text-white bg-slate-700">
+        <ul className="h-full p-4 text-gray-400 bg-slate-700">
             <li>
-                <h4 className="font-medium">PRO VERSION</h4>
+                <h4 className="font-semibold">PRO VERSION</h4>
             </li>
             <li className="mt-2">
                 <h5 className="ml-3 text-sm">Upgrade to Pro</h5>
             </li>
-            <li className="mt-3">
-                <h4 className="font-medium">MENU</h4>
+            <li className="mt-4">
+                <h4 className="font-semibold">MENU</h4>
             </li>
             <li className="mt-2">
                 <h5 className="ml-3 text-sm">Example Dashboard</h5>
